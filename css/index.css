@@ -190,3 +190,19 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*about page*/
+
+.container .about-page .middle-content{
+    display: flex;
+}
+.about-page .middle-content .text-container {
+    width: 370px;
+    padding: 10px 0 10px;
+    display: inline-block;
+    border-bottom: 1px dashed black;
+}
+.about-page .middle-content .text-container img{
+    margin: 10px 0;
+    
+}
