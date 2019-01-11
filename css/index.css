@@ -195,14 +195,28 @@ footer nav a {
 
 .container .about-page .middle-content{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+.about-page .middle-content{
+    border: 1px solid white;
+}
+
 .about-page .middle-content .text-container {
     width: 370px;
     padding: 10px 0 10px;
+    margin: 0 10px;
     display: inline-block;
     border-bottom: 1px dashed black;
 }
 .about-page .middle-content .text-container img{
     margin: 10px 0;
     
+}
+.about-page .middle-content .text-container button{
+    border: 1px solid black;
+    padding: 5px 15px;
+    margin: 10px 0;
+
+
 }
